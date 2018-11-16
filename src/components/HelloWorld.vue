@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <span>新加的home页面文字11</span>
     <h1>{{ msg }}</h1>
     <p>
       For guide and recipes on how to configure / customize this project,<br>
