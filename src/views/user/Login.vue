@@ -62,13 +62,13 @@
       return {
         formValidate: {
           name: '111',
-          mail: '',
-          city: '',
-          gender: '',
-          interest: [],
-          date: '',
-          time: '',
-          desc: ''
+          mail: '111@qq.com',
+          city: 'shanghai',
+          gender: 'female',
+          interest: ['Run'],
+          date: '2018-09-09',
+          time: '09:09:00',
+          desc: '我搜到达到啊实打实的'
         },
         ruleValidate: {
           name: [
