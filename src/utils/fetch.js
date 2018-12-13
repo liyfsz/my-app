@@ -1,9 +1,11 @@
 import axios from 'axios';
-export const fetch = (url = '', option = {}, type = 'GET') => {
+import devUrl from './api'
+export const fetch = (url = '', options = {}, type = 'post') => {
   axios.request({
-    url: url,
+    url: devUrl + url,
     method: type.toLowerCase(),
-    params: option.data || {}
+    params: options.data || {},
+    data: options.requestBody || {}
   }).then((response) => {
     console.log(response);
   })

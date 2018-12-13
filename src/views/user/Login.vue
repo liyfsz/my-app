@@ -111,7 +111,6 @@
               mail: this.formValidate.mail
             }, (response) => {
               console.log(response);
-
             })
           } else {
             this.$Message.error('Fail!');
